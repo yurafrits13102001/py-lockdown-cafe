@@ -1,6 +1,6 @@
 from app.cafe import visit_cafe, Cafe
-from app.errors import (VaccineError, NotVaccinatedError,
-                        NotWearingMaskError, OutdatedVaccineError)
+from app.errors import (VaccineError,
+                        NotWearingMaskError)
 
 
 def go_to_cafe(friends: list, cafe: Cafe) -> str:
